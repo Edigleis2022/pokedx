@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
- font-family: sans-serif;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    font-family: sans-serif;
 }
 header{
     width: 100%;
@@ -37,23 +38,49 @@ header img{
     align-items: center;
     gap: 20px;
     width: 50%;
-    background-color: azure;
+    background-color: rgba(17, 2, 3, 0.849);
 
 }
 .formLocalizar input{
+    border-radius: 10px;
     width: 100%;
     padding: 8px;
 }
 .formLocalizar button{
+    border-radius: 23px;
     width: 100%;
     padding: 8px;
     font-size: 20px;
 }
 .display{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    background-color: bisque;
+    background-color: rgba(168, 11, 24, 0.966);
 }
 main{
     display: flex;
     justify-content: center;
 }
+.cartaoPokemon{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: forestgreen;
+width: 150px;    
+height: 200px;
+border-radius: 20px;
+-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+
+}
+.cartaoPokemon img {
+    width: 100px;
+    height: 100px;
+}
+h2 {
+    
+}   
